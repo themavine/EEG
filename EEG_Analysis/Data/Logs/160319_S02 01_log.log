@@ -1,0 +1,541 @@
+29.7072 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x0A72B710>, name='window1', pos=[0, 0], screen=0, size=array([1600,  900]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+29.7073 	EXP 	window1: recordFrameIntervals = False
+29.8734 	EXP 	window1: recordFrameIntervals = True
+30.0573 	EXP 	window1: recordFrameIntervals = False
+30.0658 	EXP 	Created image_4 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.5,  1.5]), texRes=128, units=u'norm', win=Window(...))
+30.2084 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.  ,  0.85]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+30.2487 	EXP 	Created dummy_start = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, name='dummy_start', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+30.2540 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.6,  1.6]), texRes=128, units=u'norm', win=Window(...))
+30.2630 	EXP 	Created message = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='message', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+30.2686 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.5,  1.5]), texRes=128, units=u'norm', win=Window(...))
+30.2737 	EXP 	Created test_start_txt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, name='test_start_txt', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+30.2788 	EXP 	Created image_3 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.5,  1.5]), texRes=128, units=u'norm', win=Window(...))
+30.2873 	EXP 	Created Timer = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='Timer', opacity=1.0, ori=0, pos=array([ 0.  ,  0.85]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+30.2892 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+30.7265 	EXP 	Imported Settings_MRT.xlsx as conditions, 38 conditions, 9 params
+30.7275 	EXP 	Created sequence: sequential, trialTypes=38, nReps=1, seed=None
+30.7290 	EXP 	New trial (rep=0, index=0): {u'xPos': None, u'probNum': None, u'Img': u'Img/1.jpg', u'CorrKey': u'space', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'space', u'Type': u'Inst'}
+30.7303 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+30.7309 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+30.7314 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+30.7320 	EXP 	New trial (rep=0, index=0): None
+30.8405 	EXP 	image_2: image = u'Img/1.jpg'
+30.8405 	EXP 	image_2: autoDraw = True
+34.6047 	DATA 	Keypress: space
+34.6056 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+34.6061 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+34.6067 	EXP 	New trial (rep=0, index=1): {u'xPos': None, u'probNum': None, u'Img': u'Img/2.jpg', u'CorrKey': u'space', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'space', u'Type': u'Inst'}
+34.6078 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+34.6083 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+34.6088 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+34.6093 	EXP 	New trial (rep=0, index=0): None
+34.7054 	EXP 	image_2: autoDraw = False
+34.7054 	EXP 	image_2: image = u'Img/2.jpg'
+34.7054 	EXP 	image_2: autoDraw = True
+90.8942 	DATA 	Keypress: space
+90.8951 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+90.8956 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+90.8962 	EXP 	New trial (rep=0, index=2): {u'xPos': None, u'probNum': None, u'Img': u'Img/3.jpg', u'CorrKey': u'space', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'space', u'Type': u'Inst'}
+90.8972 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+90.8976 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+90.8980 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+90.8986 	EXP 	New trial (rep=0, index=0): None
+90.9773 	EXP 	image_2: autoDraw = False
+90.9773 	EXP 	image_2: image = u'Img/3.jpg'
+90.9773 	EXP 	image_2: autoDraw = True
+110.1390 	DATA 	Keypress: right
+112.0767 	DATA 	Keypress: space
+112.0776 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+112.0779 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+112.0784 	EXP 	New trial (rep=0, index=3): {u'xPos': -620, u'probNum': None, u'Img': None, u'CorrKey': None, u'TestType': u'OpenSession', u'yPos': 580, u'Etc': None, u'CorrAns': None, u'Type': u'Mouse'}
+112.0791 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+112.0794 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+112.0797 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+112.0801 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+112.0805 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+112.0810 	EXP 	New trial (rep=0, index=0): None
+112.1103 	EXP 	image_2: autoDraw = False
+112.1103 	EXP 	text: autoDraw = True
+112.1777 	EXP 	New trial (rep=0, index=4): {u'xPos': None, u'probNum': None, u'Img': u'Img/4.jpg', u'CorrKey': None, u'TestType': u'Background', u'yPos': None, u'Etc': None, u'CorrAns': None, u'Type': u'TimeOut'}
+112.1784 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+112.1788 	EXP 	New trial (rep=0, index=0): None
+112.2603 	EXP 	text: autoDraw = False
+112.2603 	EXP 	text: autoDraw = False
+112.2603 	EXP 	image_4: image = u'Img/4.jpg'
+112.2603 	EXP 	image_4: autoDraw = True
+162.2228 	EXP 	text_2: autoDraw = True
+172.1763 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+172.1767 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+172.1770 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+172.1775 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+172.1786 	EXP 	New trial (rep=0, index=5): {u'xPos': 100, u'probNum': None, u'Img': None, u'CorrKey': None, u'TestType': u'Back_to_Test', u'yPos': 100, u'Etc': None, u'CorrAns': None, u'Type': u'Mouse'}
+172.1797 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+172.1803 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+172.1808 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+172.1811 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+172.1814 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+172.1818 	EXP 	New trial (rep=0, index=0): None
+172.1878 	DATA 	Mouse: Left button down, pos=(100,800)
+172.2006 	DATA 	Mouse:  Left button up, pos=(100,800)
+172.2085 	EXP 	image_4: autoDraw = False
+172.2085 	EXP 	text_2: autoDraw = False
+172.2085 	EXP 	image_4: autoDraw = False
+172.2085 	EXP 	text_2: autoDraw = False
+172.2085 	EXP 	text: autoDraw = True
+172.2769 	EXP 	New trial (rep=0, index=6): {u'xPos': None, u'probNum': None, u'Img': u'Img/5.jpg', u'CorrKey': u'space', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'space', u'Type': u'Inst'}
+172.2777 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+172.2780 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+172.2783 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+172.2787 	EXP 	New trial (rep=0, index=0): None
+172.3602 	EXP 	text: autoDraw = False
+172.3602 	EXP 	text: autoDraw = False
+172.3602 	EXP 	image_2: image = u'Img/5.jpg'
+172.3602 	EXP 	image_2: autoDraw = True
+223.8884 	DATA 	Keypress: space
+223.8891 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+223.8895 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+223.8904 	EXP 	New trial (rep=0, index=7): {u'xPos': None, u'probNum': None, u'Img': u'Img/6.jpg', u'CorrKey': u'space', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'space', u'Type': u'Inst'}
+223.8914 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+223.8917 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+223.8920 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+223.8928 	EXP 	New trial (rep=0, index=0): None
+223.9715 	EXP 	image_2: autoDraw = False
+223.9715 	EXP 	image_2: image = u'Img/6.jpg'
+223.9715 	EXP 	image_2: autoDraw = True
+228.5596 	DATA 	Keypress: space
+228.5603 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+228.5609 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+228.5616 	EXP 	New trial (rep=0, index=8): {u'xPos': None, u'probNum': None, u'Img': u'Img/7.jpg', u'CorrKey': None, u'TestType': u'Background', u'yPos': None, u'Etc': None, u'CorrAns': None, u'Type': u'TimeOut'}
+228.5625 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+228.5628 	EXP 	New trial (rep=0, index=0): None
+228.6258 	EXP 	image_2: autoDraw = False
+228.6258 	EXP 	image_4: image = u'Img/7.jpg'
+228.6258 	EXP 	image_4: autoDraw = True
+278.5887 	EXP 	text_2: autoDraw = True
+288.5596 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+288.5602 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+288.5607 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+288.5612 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+288.5619 	EXP 	New trial (rep=0, index=9): {u'xPos': None, u'probNum': None, u'Img': u'Img/8.jpg', u'CorrKey': u'space', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'space', u'Type': u'Inst'}
+288.5631 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+288.5636 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+288.5641 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+288.5646 	EXP 	New trial (rep=0, index=0): None
+288.6583 	EXP 	image_4: autoDraw = False
+288.6583 	EXP 	text_2: autoDraw = False
+288.6583 	EXP 	image_4: autoDraw = False
+288.6583 	EXP 	text_2: autoDraw = False
+288.6583 	EXP 	image_2: image = u'Img/8.jpg'
+288.6583 	EXP 	image_2: autoDraw = True
+309.4202 	DATA 	Keypress: space
+309.4208 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+309.4211 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+309.4216 	EXP 	New trial (rep=0, index=10): {u'xPos': None, u'probNum': None, u'Img': u'Img/9.jpg', u'CorrKey': u'space', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'space', u'Type': u'Inst'}
+309.4223 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+309.4226 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+309.4230 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+309.4235 	EXP 	New trial (rep=0, index=0): None
+309.5029 	EXP 	image_2: autoDraw = False
+309.5029 	EXP 	image_2: image = u'Img/9.jpg'
+309.5029 	EXP 	image_2: autoDraw = True
+316.2077 	DATA 	Keypress: space
+316.2085 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+316.2091 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+316.2098 	EXP 	New trial (rep=0, index=11): {u'xPos': None, u'probNum': None, u'Img': u'Img/10.jpg', u'CorrKey': u'space', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'space', u'Type': u'Inst'}
+316.2108 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+316.2112 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+316.2115 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+316.2119 	EXP 	New trial (rep=0, index=0): None
+316.3071 	EXP 	image_2: autoDraw = False
+316.3071 	EXP 	image_2: image = u'Img/10.jpg'
+316.3071 	EXP 	image_2: autoDraw = True
+327.3063 	DATA 	Keypress: space
+327.3069 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+327.3073 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+327.3077 	EXP 	New trial (rep=0, index=12): {u'xPos': None, u'probNum': None, u'Img': u'Img/11.jpg', u'CorrKey': u'space', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'space', u'Type': u'Inst'}
+327.3084 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+327.3087 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+327.3090 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+327.3094 	EXP 	New trial (rep=0, index=0): None
+327.4060 	EXP 	image_2: autoDraw = False
+327.4060 	EXP 	image_2: image = u'Img/11.jpg'
+327.4060 	EXP 	image_2: autoDraw = True
+332.8365 	DATA 	Keypress: space
+332.8371 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+332.8374 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+332.8378 	EXP 	New trial (rep=0, index=13): {u'xPos': None, u'probNum': None, u'Img': u'Img/12.jpg', u'CorrKey': u'left', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Dumm'}
+332.8385 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+332.8388 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+332.8392 	EXP 	New trial (rep=0, index=0): None
+332.9167 	EXP 	image_2: autoDraw = False
+332.9167 	EXP 	image: image = u'Img/12.jpg'
+332.9167 	EXP 	dummy_start: autoDraw = True
+334.8441 	EXP 	dummy_start: autoDraw = False
+334.8611 	EXP 	image: autoDraw = True
+344.8887 	EXP 	dummy_start: autoDraw = False
+344.8887 	EXP 	image: autoDraw = False
+344.8887 	EXP 	message: text = 'Wrong \n \n Response time = 10.000'
+344.8887 	EXP 	message: autoDraw = True
+346.2567 	DATA 	Keypress: left
+347.8285 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+347.8289 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+347.8292 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+347.8296 	EXP 	New trial (rep=0, index=14): {u'xPos': None, u'probNum': None, u'Img': u'Img/13.jpg', u'CorrKey': u'right', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Dumm'}
+347.8303 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+347.8306 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+347.8309 	EXP 	New trial (rep=0, index=0): None
+347.8923 	EXP 	message: autoDraw = False
+347.8923 	EXP 	message: autoDraw = False
+347.8923 	EXP 	image: image = u'Img/13.jpg'
+347.8923 	EXP 	dummy_start: autoDraw = True
+349.8439 	EXP 	dummy_start: autoDraw = False
+349.8607 	EXP 	image: autoDraw = True
+359.8537 	EXP 	image: autoDraw = False
+359.8537 	EXP 	dummy_start: autoDraw = False
+359.8537 	EXP 	image: autoDraw = False
+359.8537 	EXP 	message: text = 'Wrong \n \n Response time = 10.000'
+359.8537 	EXP 	message: autoDraw = True
+360.1277 	DATA 	Keypress: right
+362.8265 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+362.8270 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+362.8273 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+362.8278 	EXP 	New trial (rep=0, index=15): {u'xPos': None, u'probNum': None, u'Img': u'Img/14.jpg', u'CorrKey': None, u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': None, u'Type': u'Inst'}
+362.8285 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+362.8288 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+362.8293 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+362.8298 	EXP 	New trial (rep=0, index=0): None
+362.9257 	EXP 	message: autoDraw = False
+362.9257 	EXP 	message: autoDraw = False
+362.9257 	EXP 	image_2: image = u'Img/14.jpg'
+362.9257 	EXP 	image_2: autoDraw = True
+409.5989 	DATA 	Keypress: space
+409.5997 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+409.6002 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+409.6009 	EXP 	New trial (rep=0, index=16): {u'xPos': None, u'probNum': 1, u'Img': u'Img/MRT1.jpg', u'CorrKey': u'left', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Test'}
+409.6020 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+409.6023 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+409.6027 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+409.6032 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+409.6037 	EXP 	New trial (rep=0, index=0): None
+409.6816 	EXP 	image_2: autoDraw = False
+409.6816 	EXP 	image_3: image = u'Img/MRT1.jpg'
+409.6816 	EXP 	test_start_txt: autoDraw = True
+411.6202 	EXP 	test_start_txt: autoDraw = False
+411.6369 	EXP 	image_3: autoDraw = True
+421.6427 	EXP 	Timer: autoDraw = True
+423.4555 	DATA 	Keypress: left
+423.4608 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+423.4613 	EXP 	New trial (rep=0, index=17): {u'xPos': None, u'probNum': 2, u'Img': u'Img/MRT2.jpg', u'CorrKey': u'right', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Test'}
+423.4620 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+423.4623 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+423.4627 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+423.4631 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+423.4636 	EXP 	New trial (rep=0, index=0): None
+423.5385 	EXP 	test_start_txt: autoDraw = False
+423.5385 	EXP 	image_3: autoDraw = False
+423.5385 	EXP 	Timer: autoDraw = False
+423.5385 	EXP 	image_3: image = u'Img/MRT2.jpg'
+423.5385 	EXP 	test_start_txt: autoDraw = True
+425.4810 	EXP 	test_start_txt: autoDraw = False
+425.4810 	EXP 	image_3: autoDraw = True
+428.7185 	DATA 	Keypress: right
+428.7206 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+428.7212 	EXP 	New trial (rep=0, index=18): {u'xPos': None, u'probNum': 3, u'Img': u'Img/MRT3.jpg', u'CorrKey': u'left', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Test'}
+428.7221 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+428.7225 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+428.7229 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+428.7234 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+428.7240 	EXP 	New trial (rep=0, index=0): None
+428.7846 	EXP 	test_start_txt: autoDraw = False
+428.7846 	EXP 	image_3: autoDraw = False
+428.7846 	EXP 	Timer: autoDraw = False
+428.7846 	EXP 	image_3: image = u'Img/MRT3.jpg'
+428.7846 	EXP 	test_start_txt: autoDraw = True
+430.7382 	EXP 	test_start_txt: autoDraw = False
+430.7549 	EXP 	image_3: autoDraw = True
+435.6147 	DATA 	Keypress: left
+435.6162 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+435.6167 	EXP 	New trial (rep=0, index=19): {u'xPos': None, u'probNum': 4, u'Img': u'Img/MRT4.jpg', u'CorrKey': u'left', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Test'}
+435.6176 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+435.6179 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+435.6183 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+435.6188 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+435.6193 	EXP 	New trial (rep=0, index=0): None
+435.6807 	EXP 	test_start_txt: autoDraw = False
+435.6807 	EXP 	image_3: autoDraw = False
+435.6807 	EXP 	Timer: autoDraw = False
+435.6807 	EXP 	image_3: image = u'Img/MRT4.jpg'
+435.6807 	EXP 	test_start_txt: autoDraw = True
+437.6264 	EXP 	test_start_txt: autoDraw = False
+437.6431 	EXP 	image_3: autoDraw = True
+440.2946 	DATA 	Keypress: left
+440.2960 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+440.2967 	EXP 	New trial (rep=0, index=20): {u'xPos': None, u'probNum': 5, u'Img': u'Img/MRT5.jpg', u'CorrKey': u'right', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Test'}
+440.2979 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+440.2982 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+440.2986 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+440.2991 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+440.2995 	EXP 	New trial (rep=0, index=0): None
+440.3768 	EXP 	test_start_txt: autoDraw = False
+440.3768 	EXP 	image_3: autoDraw = False
+440.3768 	EXP 	Timer: autoDraw = False
+440.3768 	EXP 	image_3: image = u'Img/MRT5.jpg'
+440.3768 	EXP 	test_start_txt: autoDraw = True
+442.3143 	EXP 	test_start_txt: autoDraw = False
+442.3307 	EXP 	image_3: autoDraw = True
+448.7093 	DATA 	Keypress: right
+448.7113 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+448.7119 	EXP 	New trial (rep=0, index=21): {u'xPos': None, u'probNum': 6, u'Img': u'Img/MRT6.jpg', u'CorrKey': u'right', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Test'}
+448.7132 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+448.7138 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+448.7143 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+448.7148 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+448.7154 	EXP 	New trial (rep=0, index=0): None
+448.7753 	EXP 	test_start_txt: autoDraw = False
+448.7753 	EXP 	image_3: autoDraw = False
+448.7753 	EXP 	Timer: autoDraw = False
+448.7753 	EXP 	image_3: image = u'Img/MRT6.jpg'
+448.7753 	EXP 	test_start_txt: autoDraw = True
+450.7363 	EXP 	test_start_txt: autoDraw = False
+450.7363 	EXP 	image_3: autoDraw = True
+460.7647 	EXP 	Timer: autoDraw = True
+462.5235 	DATA 	Keypress: left
+462.5311 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+462.5317 	EXP 	New trial (rep=0, index=22): {u'xPos': None, u'probNum': 7, u'Img': u'Img/MRT7.jpg', u'CorrKey': u'right', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Test'}
+462.5329 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+462.5335 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+462.5340 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+462.5345 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+462.5350 	EXP 	New trial (rep=0, index=0): None
+462.6062 	EXP 	test_start_txt: autoDraw = False
+462.6062 	EXP 	image_3: autoDraw = False
+462.6062 	EXP 	Timer: autoDraw = False
+462.6062 	EXP 	image_3: image = u'Img/MRT7.jpg'
+462.6062 	EXP 	test_start_txt: autoDraw = True
+464.5533 	EXP 	test_start_txt: autoDraw = False
+464.5533 	EXP 	image_3: autoDraw = True
+474.5736 	EXP 	Timer: autoDraw = True
+476.0906 	DATA 	Keypress: left
+476.1073 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+476.1080 	EXP 	New trial (rep=0, index=23): {u'xPos': None, u'probNum': 8, u'Img': u'Img/MRT8.jpg', u'CorrKey': u'left', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Test'}
+476.1092 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+476.1097 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+476.1102 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+476.1107 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+476.1112 	EXP 	New trial (rep=0, index=0): None
+476.1848 	EXP 	test_start_txt: autoDraw = False
+476.1848 	EXP 	image_3: autoDraw = False
+476.1848 	EXP 	Timer: autoDraw = False
+476.1848 	EXP 	image_3: image = u'Img/MRT8.jpg'
+476.1848 	EXP 	test_start_txt: autoDraw = True
+478.1208 	EXP 	test_start_txt: autoDraw = False
+478.1375 	EXP 	image_3: autoDraw = True
+486.4494 	DATA 	Keypress: left
+486.4517 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+486.4523 	EXP 	New trial (rep=0, index=24): {u'xPos': None, u'probNum': 9, u'Img': u'Img/MRT9.jpg', u'CorrKey': u'left', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Test'}
+486.4535 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+486.4541 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+486.4546 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+486.4550 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+486.4555 	EXP 	New trial (rep=0, index=0): None
+486.5321 	EXP 	test_start_txt: autoDraw = False
+486.5321 	EXP 	image_3: autoDraw = False
+486.5321 	EXP 	Timer: autoDraw = False
+486.5321 	EXP 	image_3: image = u'Img/MRT9.jpg'
+486.5321 	EXP 	test_start_txt: autoDraw = True
+488.4654 	EXP 	test_start_txt: autoDraw = False
+488.4824 	EXP 	image_3: autoDraw = True
+497.8550 	DATA 	Keypress: left
+497.8571 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+497.8577 	EXP 	New trial (rep=0, index=25): {u'xPos': None, u'probNum': 10, u'Img': u'Img/MRT10.jpg', u'CorrKey': u'left', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Test'}
+497.8588 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+497.8594 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+497.8599 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+497.8604 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+497.8609 	EXP 	New trial (rep=0, index=0): None
+497.9356 	EXP 	test_start_txt: autoDraw = False
+497.9356 	EXP 	image_3: autoDraw = False
+497.9356 	EXP 	Timer: autoDraw = False
+497.9356 	EXP 	image_3: image = u'Img/MRT10.jpg'
+497.9356 	EXP 	test_start_txt: autoDraw = True
+499.8789 	EXP 	test_start_txt: autoDraw = False
+499.8789 	EXP 	image_3: autoDraw = True
+509.8831 	EXP 	Timer: autoDraw = True
+510.6914 	DATA 	Keypress: left
+510.6978 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+510.6986 	EXP 	New trial (rep=0, index=26): {u'xPos': None, u'probNum': 11, u'Img': u'Img/MRT11.jpg', u'CorrKey': u'right', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Test'}
+510.6998 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+510.7005 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+510.7010 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+510.7015 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+510.7021 	EXP 	New trial (rep=0, index=0): None
+510.7723 	EXP 	test_start_txt: autoDraw = False
+510.7723 	EXP 	image_3: autoDraw = False
+510.7723 	EXP 	Timer: autoDraw = False
+510.7723 	EXP 	image_3: image = u'Img/MRT11.jpg'
+510.7723 	EXP 	test_start_txt: autoDraw = True
+512.7166 	EXP 	test_start_txt: autoDraw = False
+512.7336 	EXP 	image_3: autoDraw = True
+522.7367 	EXP 	Timer: autoDraw = True
+523.6914 	DATA 	Keypress: right
+523.6986 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+523.6993 	EXP 	New trial (rep=0, index=27): {u'xPos': None, u'probNum': 12, u'Img': u'Img/MRT12.jpg', u'CorrKey': u'right', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Test'}
+523.7004 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+523.7009 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+523.7014 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+523.7019 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+523.7025 	EXP 	New trial (rep=0, index=0): None
+523.7742 	EXP 	test_start_txt: autoDraw = False
+523.7742 	EXP 	image_3: autoDraw = False
+523.7742 	EXP 	Timer: autoDraw = False
+523.7742 	EXP 	image_3: image = u'Img/MRT12.jpg'
+523.7742 	EXP 	test_start_txt: autoDraw = True
+525.7078 	EXP 	test_start_txt: autoDraw = False
+525.7244 	EXP 	image_3: autoDraw = True
+532.4443 	DATA 	Keypress: right
+532.4464 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+532.4470 	EXP 	New trial (rep=0, index=28): {u'xPos': None, u'probNum': 13, u'Img': u'Img/MRT13.jpg', u'CorrKey': u'left', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Test'}
+532.4478 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+532.4481 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+532.4485 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+532.4488 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+532.4493 	EXP 	New trial (rep=0, index=0): None
+532.5108 	EXP 	test_start_txt: autoDraw = False
+532.5108 	EXP 	image_3: autoDraw = False
+532.5108 	EXP 	Timer: autoDraw = False
+532.5108 	EXP 	image_3: image = u'Img/MRT13.jpg'
+532.5108 	EXP 	test_start_txt: autoDraw = True
+534.4613 	EXP 	test_start_txt: autoDraw = False
+534.4780 	EXP 	image_3: autoDraw = True
+541.0103 	DATA 	Keypress: left
+541.0124 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+541.0130 	EXP 	New trial (rep=0, index=29): {u'xPos': None, u'probNum': 14, u'Img': u'Img/MRT14.jpg', u'CorrKey': u'right', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Test'}
+541.0139 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+541.0143 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+541.0146 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+541.0149 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+541.0159 	EXP 	New trial (rep=0, index=0): None
+541.0766 	EXP 	test_start_txt: autoDraw = False
+541.0766 	EXP 	image_3: autoDraw = False
+541.0766 	EXP 	Timer: autoDraw = False
+541.0766 	EXP 	image_3: image = u'Img/MRT14.jpg'
+541.0766 	EXP 	test_start_txt: autoDraw = True
+543.0331 	EXP 	test_start_txt: autoDraw = False
+543.0331 	EXP 	image_3: autoDraw = True
+550.4162 	DATA 	Keypress: left
+550.4179 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+550.4185 	EXP 	New trial (rep=0, index=30): {u'xPos': None, u'probNum': 15, u'Img': u'Img/MRT15.jpg', u'CorrKey': u'left', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Test'}
+550.4192 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+550.4196 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+550.4224 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+550.4228 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+550.4233 	EXP 	New trial (rep=0, index=0): None
+550.4991 	EXP 	test_start_txt: autoDraw = False
+550.4991 	EXP 	image_3: autoDraw = False
+550.4991 	EXP 	Timer: autoDraw = False
+550.4991 	EXP 	image_3: image = u'Img/MRT15.jpg'
+550.4991 	EXP 	test_start_txt: autoDraw = True
+552.4405 	EXP 	test_start_txt: autoDraw = False
+552.4560 	EXP 	image_3: autoDraw = True
+562.4640 	EXP 	Timer: autoDraw = True
+564.9017 	DATA 	Keypress: left
+564.9085 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+564.9089 	EXP 	New trial (rep=0, index=31): {u'xPos': None, u'probNum': 16, u'Img': u'Img/MRT16.jpg', u'CorrKey': u'right', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Test'}
+564.9097 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+564.9100 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+564.9103 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+564.9106 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+564.9111 	EXP 	New trial (rep=0, index=0): None
+564.9842 	EXP 	test_start_txt: autoDraw = False
+564.9842 	EXP 	image_3: autoDraw = False
+564.9842 	EXP 	Timer: autoDraw = False
+564.9842 	EXP 	image_3: image = u'Img/MRT16.jpg'
+564.9842 	EXP 	test_start_txt: autoDraw = True
+566.9183 	EXP 	test_start_txt: autoDraw = False
+566.9353 	EXP 	image_3: autoDraw = True
+576.9442 	EXP 	Timer: autoDraw = True
+579.2193 	DATA 	Keypress: left
+579.2242 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+579.2245 	EXP 	New trial (rep=0, index=32): {u'xPos': None, u'probNum': 17, u'Img': u'Img/MRT17.jpg', u'CorrKey': u'left', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Test'}
+579.2253 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+579.2256 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+579.2258 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+579.2262 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+579.2266 	EXP 	New trial (rep=0, index=0): None
+579.2848 	EXP 	test_start_txt: autoDraw = False
+579.2848 	EXP 	image_3: autoDraw = False
+579.2848 	EXP 	Timer: autoDraw = False
+579.2848 	EXP 	image_3: image = u'Img/MRT17.jpg'
+579.2848 	EXP 	test_start_txt: autoDraw = True
+581.2405 	EXP 	test_start_txt: autoDraw = False
+581.2576 	EXP 	image_3: autoDraw = True
+591.2597 	EXP 	Timer: autoDraw = True
+593.3127 	DATA 	Keypress: right
+593.3181 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+593.3185 	EXP 	New trial (rep=0, index=33): {u'xPos': None, u'probNum': 18, u'Img': u'Img/MRT18.jpg', u'CorrKey': u'left', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'same', u'Type': u'Test'}
+593.3194 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+593.3198 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+593.3202 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+593.3205 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+593.3208 	EXP 	New trial (rep=0, index=0): None
+593.3949 	EXP 	test_start_txt: autoDraw = False
+593.3949 	EXP 	image_3: autoDraw = False
+593.3949 	EXP 	Timer: autoDraw = False
+593.3949 	EXP 	image_3: image = u'Img/MRT18.jpg'
+593.3949 	EXP 	test_start_txt: autoDraw = True
+595.3339 	EXP 	test_start_txt: autoDraw = False
+595.3509 	EXP 	image_3: autoDraw = True
+600.6623 	DATA 	Keypress: left
+600.6643 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+600.6647 	EXP 	New trial (rep=0, index=34): {u'xPos': None, u'probNum': 19, u'Img': u'Img/MRT19.jpg', u'CorrKey': u'right', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Test'}
+600.6654 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+600.6657 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+600.6660 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+600.6663 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+600.6666 	EXP 	New trial (rep=0, index=0): None
+600.7262 	EXP 	test_start_txt: autoDraw = False
+600.7262 	EXP 	image_3: autoDraw = False
+600.7262 	EXP 	Timer: autoDraw = False
+600.7262 	EXP 	image_3: image = u'Img/MRT19.jpg'
+600.7262 	EXP 	test_start_txt: autoDraw = True
+602.6792 	EXP 	test_start_txt: autoDraw = False
+602.6958 	EXP 	image_3: autoDraw = True
+612.6863 	EXP 	Timer: autoDraw = True
+615.8644 	DATA 	Keypress: left
+615.8702 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+615.8708 	EXP 	New trial (rep=0, index=35): {u'xPos': None, u'probNum': 20, u'Img': u'Img/MRT20.jpg', u'CorrKey': u'right', u'TestType': u'MRT', u'yPos': None, u'Etc': None, u'CorrAns': u'different', u'Type': u'Test'}
+615.8719 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+615.8724 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+615.8729 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+615.8734 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+615.8739 	EXP 	New trial (rep=0, index=0): None
+615.9475 	EXP 	test_start_txt: autoDraw = False
+615.9475 	EXP 	image_3: autoDraw = False
+615.9475 	EXP 	Timer: autoDraw = False
+615.9475 	EXP 	image_3: image = u'Img/MRT20.jpg'
+615.9475 	EXP 	test_start_txt: autoDraw = True
+617.8861 	EXP 	test_start_txt: autoDraw = False
+617.9033 	EXP 	image_3: autoDraw = True
+623.4289 	DATA 	Keypress: right
+623.4308 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+623.4312 	EXP 	New trial (rep=0, index=36): {u'xPos': None, u'probNum': None, u'Img': u'Img/62.jpg', u'CorrKey': u'space', u'TestType': None, u'yPos': None, u'Etc': None, u'CorrAns': u'space', u'Type': u'Inst'}
+623.4320 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+623.4325 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+623.4330 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+623.4335 	EXP 	New trial (rep=0, index=0): None
+623.5284 	EXP 	test_start_txt: autoDraw = False
+623.5284 	EXP 	image_3: autoDraw = False
+623.5284 	EXP 	Timer: autoDraw = False
+623.5284 	EXP 	image_2: image = u'Img/62.jpg'
+623.5284 	EXP 	image_2: autoDraw = True
+628.6958 	DATA 	Keypress: space
+628.6966 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+628.6972 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+628.6978 	EXP 	New trial (rep=0, index=37): {u'xPos': -1200, u'probNum': None, u'Img': None, u'CorrKey': None, u'TestType': u'CloseSession', u'yPos': 60, u'Etc': None, u'CorrAns': None, u'Type': u'Mouse'}
+628.6988 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+628.6993 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+628.6999 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+628.7004 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+628.7009 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+628.7014 	EXP 	New trial (rep=0, index=0): None
+628.9142 	EXP 	window1: mouseVisible = True

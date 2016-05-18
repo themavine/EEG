@@ -1,0 +1,2 @@
+Version,Patient,Recording,Startdate,Startime,Bytes,Reserved,NumRec,Duration,NumSig
+0       ,160319_S20 M 01-JAN-2002 XX                                                     ,Startdate 19-MAR-2016 1.001.01_TASK_3366037XX Seoul_National_Univ. SN:060338    ,19.03.16,14.56.05,5632    ,EDF+C                                       ,418,1       ,20
